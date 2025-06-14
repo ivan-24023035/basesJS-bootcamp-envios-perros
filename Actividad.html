@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejemplos DOM - Bootcamp JS</title>
+  <style>
+    .item {
+      padding: 5px;
+      margin: 3px;
+      background-color: lightgray;
+    }
+    #contenedor-lista {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Título Principal</h1>
+
+  <div class="seccion">
+    <h2>Sección con varios items</h2>
+    <ul id="lista" class="lista">
+      <li class="item">Item 1</li>
+      <li class="item">Item 2</li>
+      <li class="item">Item 3</li>
+      <li class="item especial">Item 4 (Especial)</li>
+    </ul>
+  </div>
+
+  <div id="contenedor-lista">
+    <p>Parrafos para ejemplo:</p>
+    <p class="item">Parrafo 1</p>
+    <p class="item">Parrafo 2</p>
+    <p>Parrafo sin clase</p>
+  </div>
+
+  <button id="btnEjemplo">Botón ejemplo</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
